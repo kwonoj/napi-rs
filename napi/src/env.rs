@@ -1079,7 +1079,6 @@ impl Env {
   }
 
   #[cfg(feature = "napi3")]
-  #[inline]
   pub fn add_env_cleanup_hook<T, F>(
     &mut self,
     cleanup_data: T,
